@@ -1,21 +1,22 @@
 import React from "react";
-
-//importing all our components in a single line.
-import {About, Footer, Header, Skills, Testimonials, Work} from './container'
-
-import { Navbar } from "./components";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom"
 import './App.scss'
+import Home from "./pages/Home";
+import Project from "./pages/Project";
 
 function App() {
   return (
     <div className="app">
-      <Navbar/>
-      <Header/>
-      <About/>
-      <Work/>
-      <Skills/>
-      {/* <Testimonials/> */}
-      <Footer/> 
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home/>}></Route>
+          <Route exact path="/project/:projectname" element={<Project/>}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }

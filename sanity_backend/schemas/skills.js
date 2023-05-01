@@ -21,6 +21,10 @@ export default{
               hotspot: true,
             },
         },
-        
+        {
+            name: 'id',
+            title: 'Id',
+            type: 'number'
+        }
     ]
 }

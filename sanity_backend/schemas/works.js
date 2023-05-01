@@ -45,6 +45,11 @@ export default {
          }
        ]
       },
+      {
+        name: 'id',
+        title: 'Id',
+        type: 'number'
+      }
      
     ],
   };

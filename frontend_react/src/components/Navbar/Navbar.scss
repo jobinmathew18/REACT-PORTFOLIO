@@ -19,7 +19,14 @@
 
   img {
     width: 90px;
-    height: 20px;
+    height: 40px;
+  }
+
+  span{
+    color: var(--secondary-color);
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 4px;
   }
 
   @media screen and (min-width: 2000px) {

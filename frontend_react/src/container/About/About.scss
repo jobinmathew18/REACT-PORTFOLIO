@@ -4,6 +4,60 @@
     flex-direction: column;
 }
 
+.desc{
+    width: 75%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (max-width: 900px) {
+        width: 85%;
+    }
+
+
+    p{
+        font-size: 18px;
+        line-height: 1.7;
+        font-weight: 400;
+    }
+
+    .about__button{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 50px;
+
+        @media screen and (max-width: 500px) {
+            gap: 20px;
+        }
+
+        a{
+            margin-top: 20px;
+            width: 130px;
+            height: 50px;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 7px;
+            text-decoration: none;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            &:hover{
+                text-decoration: underline;
+            }
+    
+            @media screen and (max-width: 500px) {
+                font-size: 13px;
+            }
+    
+        }
+    }
+
+}
+
 .app__profiles{
     display: flex;
     justify-content: center;

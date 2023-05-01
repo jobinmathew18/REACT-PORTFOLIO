@@ -12,7 +12,8 @@ const Skills = () => {
   useEffect(() => {
     const getInfo = async () => {
       const skillsData = await client.fetch(`*[_type == "skills"]`);
-      setSkills(skillsData);
+      const sorted = skillsData.sort((skill1, skill2) => skill1.id - skill2.id)
+      setSkills(sorted);
     };
     getInfo();
   }, []);

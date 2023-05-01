@@ -4,6 +4,7 @@ import { client } from "../../client";
 import images from "../../constants/images";
 import "./Footer.scss";
 import { useState } from "react";
+import { BsTwitter, BsInstagram, BsLinkedin, BsGithub } from 'react-icons/bs' 
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -47,7 +48,7 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email2} alt="email" />
-          <a href="mailto:hello@gmail.com" className="p-text">
+          <a href="mailto:jobin.mathew364@gmail.com" className="p-text">
             jobin.mathew364@gmail.com
           </a>
         </div>
@@ -58,6 +59,21 @@ const Footer = () => {
           </a>
         </div>
       </div>
+
+      <div className='footer__social'>
+        <div>
+            <a className="default" href="//linkedin.com/in/jobin-mathew-923719184" target="_blank" rel="noreferrer"><BsLinkedin/></a>
+        </div>
+        <div>
+            <a className="default" href="https://github.com/jobinmathew18" target="_blank" rel="noreferrer"><BsGithub/></a>
+        </div>
+        <div>
+            <BsInstagram/>
+        </div>
+        <div>
+            <BsTwitter/>
+        </div>
+    </div>
 
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
