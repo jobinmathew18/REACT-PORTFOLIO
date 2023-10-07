@@ -28,7 +28,7 @@ const About = () => {
           front-end and back-end development, and I am excited to put my skills
           to use in a professional setting. I am a quick learner and team player
           and I am confident that I can be a valuable asset to any web
-          develepment team.
+          development team.
         </p>
         <p>
           My Career objective is to secure position as a developer in a reputed

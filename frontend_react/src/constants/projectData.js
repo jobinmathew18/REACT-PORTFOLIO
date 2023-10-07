@@ -9,6 +9,7 @@ const projects = [
             images.social3,
             images.social4,
             images.social5,
+            images.social6,
         ],
         overview: "SocialSync is a MERN (MongoDB, Express, React, Node.js) stack social media webapp. It is an online platform that allows users to connect, share, and interact with others, typically through user-generated content. The MERN stack provides a comprehensive set of technologies for building social media applications, including a flexible NoSQL database (MongoDB), a powerful backend web framework (Express), a dynamic frontend UI library (React), and a server-side JavaScript runtime (Node.js), making it a popular choice for developing social media platforms with full-stack JavaScript. ",
         features: [

@@ -125,7 +125,7 @@ const Footer = () => {
         </div>
       ) : (
         <div>
-          <h3 className="head-text" style={{ color: "rgb(158, 149, 149)" }}>
+          <h3 className="head-text" style={{ color: "rgb(158, 149, 149)", margin: "40px 30px" }}>
             Thank you for getting in touch!
           </h3>
         </div>

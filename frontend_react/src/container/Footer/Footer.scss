@@ -6,7 +6,7 @@
 
 .light {
   letter-spacing: 5px;
-
+  margin-inline: 20px;
   @media screen and (max-width: 450px) {
     letter-spacing: 3px;
   }

@@ -41,7 +41,7 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">
+      <h2 className="head-text" style={{marginTop: "40px"}}>
         My Creative <span>Portfolio</span> section
       </h2>
       <div className="app__work-filter">

@@ -43,6 +43,7 @@ import social2 from '../assets/social2.PNG'
 import social3 from '../assets/social3.PNG'
 import social4 from '../assets/social4.PNG'
 import social5 from '../assets/social5.PNG'
+import social6 from '../assets/social6.PNG'
 
 import shopping1 from '../assets/shopping1.PNG'
 import shopping2 from '../assets/shopping2.PNG'
@@ -136,6 +137,7 @@ const images =  {
   social3,
   social4,
   social5,
+  social6,
 
   shopping1,
   shopping2,
